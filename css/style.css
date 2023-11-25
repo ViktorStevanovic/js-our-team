@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(227, 227, 227);
+}
+img{
+    width: 100%;
+}
+
+.wrapper{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 1.5rem;
+    padding: 2rem 0;
+    
+}
+.wrapper p{
+    text-align: center;
+}
+
+.team-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    width: 100%;
+}
+.team-card{
+    width: calc((100% - 4rem) / 3);
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    gap: .25rem;
+}
+
+.name-class{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+.role-class{
+    margin-bottom: 1rem;
+}
